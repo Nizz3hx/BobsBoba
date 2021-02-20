@@ -1,0 +1,36 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline;
+}
+
+li > a {
+  display: inline-block;
+  padding: 8px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#logoAndIntro {
+  height: 600px;
+  width: 100%;
+  background-color: RGB(135, 89, 246);
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+}
